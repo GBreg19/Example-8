@@ -1,0 +1,553 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  background-color: rgb(240, 240, 240);
+}
+
+/* HEADER  */
+
+header {
+  padding-bottom: 300px;
+  padding-top: 70px;
+}
+
+/* FIRST  */
+
+.header {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 90%;
+}
+
+.header .header-button {
+  padding: 12px 35px;
+  background-color: white;
+  border: 2px #fd53c0 solid;
+  border-radius: 30px;
+  font: bolder;
+  font-size: 20px;
+  color: #fd53c0;
+}
+
+.header .header-button:hover {
+  border: 2px rgb(253, 83, 192, 0.7) solid;
+  color: rgb(253, 83, 192, 0.7);
+}
+
+/* SECOND  */
+
+.header-info {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.header-info h1 {
+  text-transform: capitalize;
+  font-size: 55px;
+}
+
+.header-info p {
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+  font-size: 24px;
+  color: black;
+}
+
+.header-info .header-button2 {
+  margin-top: 45px;
+  padding: 18px 60px;
+  background-color: #fd53c0;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+.header-info .header-button2:hover {
+  background-color: rgb(253, 83, 192, 0.8);
+}
+
+/* Registration Form */
+
+.reg {
+  padding: 30px 0;
+  background-color: #b96f00b7;
+  width: 30%;
+  text-align: center;
+  border-radius: 15px;
+  height: 500px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(240, 240, 240, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.close-window {
+  position: absolute;
+  top: 35px;
+  left: 93%;
+  background: none;
+  border: none;
+  font-size: x-large;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.reg h1 {
+  padding-bottom: 20px;
+  color: white;
+}
+
+.reg form {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  height: 90%;
+  justify-content: space-between;
+}
+
+.reg form .input {
+  width: 80%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reg form .input label {
+  font-size: larger;
+  color: white;
+}
+
+.reg form .input input {
+  padding: 5px 3px;
+  width: 19rem;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.reg form .bottom {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+.reg form .bottom .birthyear input {
+  width: 9rem;
+}
+
+.reg form .bottom .gender {
+  width: 50%;
+  text-align: right;
+  color: white;
+  font-size: larger;
+}
+
+.reg form .bottom .gender .radio {
+}
+
+.reg form .sign-up {
+  padding: 10px 50px;
+  margin: auto;
+  border: none;
+  background-color: #8f005a;
+  border-radius: 10px;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+/* THIRD  */
+
+.header-img {
+  margin-top: 80px;
+  text-align: center;
+}
+
+/* FOURTH  */
+
+.header-stats {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 48%;
+  margin: auto;
+  margin-top: 70px;
+  justify-content: space-between;
+}
+
+.header-stats h1 {
+  font-size: 100px;
+  font-weight: bolder;
+}
+
+.header-stats h3 {
+  font-size: 25px;
+  color: gray;
+  font-weight: 100;
+}
+
+.header-stats .second h3 {
+  text-align: center;
+}
+
+/* MAIN  */
+
+/* MAIN FIRST DIV  */
+
+.main-first {
+  background-color: #f6fbff;
+  position: relative;
+  height: 650px;
+}
+
+.main-first .first-top {
+  position: absolute;
+  bottom: 650px;
+}
+
+.main-first .first-bottom {
+  position: absolute;
+  top: 650px;
+}
+
+.main-first .content-first {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.main-first .content-first .content h1 {
+  font-size: 50px;
+}
+
+.main-first .content-first .content p {
+  font-size: 23px;
+  width: 70%;
+  margin-top: 30px;
+}
+
+/* MAIN SECOND DIV  */
+
+.main-second {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto;
+  margin-top: 300px;
+  margin-bottom: 400px;
+  width: 85%;
+}
+
+.main-second .content-second {
+  width: 90%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.main-second .content-second h1 {
+  font-size: 50px;
+  text-align: right;
+}
+
+.main-second .content-second p {
+  font-size: 23px;
+  width: 53%;
+  margin-top: 30px;
+}
+
+/* MAIN THIRD DIV  */
+
+.main-third {
+  background-color: #f6fbff;
+  position: relative;
+  height: 650px;
+  margin-bottom: 300px;
+}
+
+.main-third .first-top {
+  position: absolute;
+  bottom: 650px;
+}
+
+.main-third .first-bottom {
+  position: absolute;
+  top: 650px;
+}
+
+.main-third .content-first {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+}
+
+.main-third .content-first .content h1 {
+  font-size: 50px;
+}
+
+.main-third .content-first .content p {
+  font-size: 23px;
+  width: 70%;
+  margin-top: 30px;
+}
+
+/* MAIN FOURTH DIV  */
+
+.main-fourth {
+  text-align: center;
+  margin-bottom: 400px;
+}
+
+.main-fourth h1 {
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: bolder;
+  margin-bottom: 50px;
+}
+
+.main-fourth button {
+  text-transform: capitalize;
+  padding: 25px 100px;
+  background-color: #fd53c0;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+}
+
+.main-fourth button:hover {
+  background-color: rgb(253, 83, 192, 0.8);
+}
+
+/* FOOTER  */
+
+footer {
+  position: relative;
+  height: 500px;
+  background-color: #00252e;
+}
+
+footer .img1 {
+  position: absolute;
+  bottom: 500px;
+  width: 100%;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.footer .col-1 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.footer .col-1 p {
+  width: 50%;
+  color: white;
+  line-height: 23px;
+  font-weight: bold;
+}
+
+.footer .col-1 .icons {
+  height: 60px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer .col-1 .social {
+  padding-top: 50px;
+}
+
+.footer .col-1 .img3 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 20px;
+}
+
+.footer .col-1 .img3 p {
+  padding-left: 20px;
+}
+
+.footer .col-1 .img4 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  height: 20px;
+}
+
+.footer .col-1 .img4 p {
+  padding-left: 20px;
+}
+
+.footer .col-1 .social {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.footer .col-1 .social i {
+  color: white;
+  font-size: 35px;
+}
+
+.footer .col-1 .social .fb i:hover {
+  color: #3b5998;
+}
+
+.footer .col-1 .social .insta i:hover {
+  color: #fe4164;
+}
+
+.footer .col-1 .social .twit i:hover {
+  color: #1da1f2;
+}
+
+.footer .col-2 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  /* text-align: right; */
+  width: 40%;
+  height: 200px;
+  justify-content: space-between;
+}
+
+.footer .col-2 h1 {
+  color: white;
+  font-size: 30px;
+}
+
+.footer .col-2 p {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+  /* text-align: right; */
+  width: 60%;
+  color: white;
+  line-height: 23px;
+}
+
+.footer .col-2 .form input {
+  padding: 10px 5px;
+  width: 55%;
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+}
+
+.footer .col-2 .form button {
+  padding: 12px 40px;
+  background-color: #fd53c0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+.footer .col-2 .form button:hover {
+  background-color: rgb(253, 83, 192, 0.8);
+}
